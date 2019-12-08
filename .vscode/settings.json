@@ -1,0 +1,5 @@
+{
+    "files.autoSave": "afterDelay",
+    "html.format.indentHandlebars": true,
+    "html.format.indentInnerHtml": true
+}

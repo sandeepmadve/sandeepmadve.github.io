@@ -1,3 +1,63 @@
-body{
-    font-family: 'Open Sans', sans-serif;
+:root {
+    /* --color-primary: #86C232;
+    --color-secondary: #61892F;
+    --color-dark: #222629;
+    --color-graphite: #474B4F;
+    --color-gray: #6B6E70; */
+
+    --color-primary: #FF6A5C;
+    --color-secondary: #CCDFCB;
+    --color-dark: #414141;
+    --color-teal: #056571;
+}
+
+body {
+    color: #888;
+    font-family: 'Open Sans', sans-serif !important;
+}
+
+header {
+    background: radial-gradient(gray, var(--color-dark));
+}
+
+.primary-header {
+    height: 300px;
+}
+
+footer {
+    text-align: center;
+    vertical-align: middle;
+    height: 50px;
+    background-color: var(--color-dark);
+    padding-top: 10px;
+}
+
+.navbar-light {
+    background-color: transparent !important;
+}
+
+.navbar-brand {
+    color: var(--color-secondary) !important;
+}
+
+.navbar-light>div>ul>li>a {
+    color: var(--color-secondary) !important;
+}
+
+/* Sections */
+section {
+    min-height: 100px;
+}
+
+.section-header {
+    text-align: center;
+    color: var(--color-primary);
+}
+
+.projects-section {
+    background-color: var(--color-secondary);
+}
+
+.skill-card {
+    width: 15rem;
 }
