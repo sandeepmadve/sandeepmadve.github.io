@@ -8,27 +8,35 @@
     --color-primary: #FF6A5C;
     --color-secondary: #CCDFCB;
     --color-dark: #414141;
-    --color-teal: #056571;
+    --color-teal: #074c55;
 }
 
 body {
-    color: #888;
-    font-family: 'Open Sans', sans-serif !important;
+    font-family: Roboto, sans-serif;
 }
 
 header {
-    background: radial-gradient(gray, var(--color-dark));
+    background: radial-gradient(var(--color-teal), #05373D);
+    /* background:url(./11.jpg) rgba(232, 247, 20, 0.89); */
+    background-repeat: none;
 }
 
 .primary-header {
-    height: 300px;
+    min-height: 300px;
 }
+
+.profile-image{
+    text-align: center;
+    display: block;
+}
+
 
 footer {
     text-align: center;
     vertical-align: middle;
     height: 50px;
-    background-color: var(--color-dark);
+    color: white;
+    background-color: black;
     padding-top: 10px;
 }
 
@@ -59,5 +67,10 @@ section {
 }
 
 .skill-card {
-    width: 15rem;
+    width: 16rem;
+}
+
+.list-group-item.active {
+    background-color: var(--color-teal) !important;
+    border: none !important;
 }

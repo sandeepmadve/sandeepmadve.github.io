@@ -9,22 +9,33 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
       integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap">
+
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:200' rel='stylesheet' type='text/css'>
+
     <link rel="stylesheet" href="https://github.com/sandeepmadve/sandeepmadve.github.io/blob/master/style.css">
+
+    <!-- <link rel="stylesheet" href="style.css"> -->
+
     <title>Sandeep MADVE</title>
 
-   
   </head>
 
   <body>
     <header>
       <div class="primary-header">
-
+        <br>
+        <br>
+        <div class="row">
+          <div class="col-12 profile-image">
+              <img src="https://github.com/sandeepmadve/sandeepmadve.github.io/blob/master/sandeep.jpeg" alt="" height="200px" width="200px" class="rounded-circle">
+          </div>
+        </div>
       </div>
 
       <div class="container">
         <nav id="main-content-scroll" class="navbar navbar-expand-lg navbar-light">
-          <a class="navbar-brand" href="#">Sandeep MADVE</a>
+          <a class="navbar-brand fc-r2" href="#">Sandeep MADVE</a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -53,7 +64,7 @@
     <br>
     <main>
       <div data-spy="scroll" data-target="#main-content-scroll" data-offset="0">
-        <section class="about-section" id="about">
+        <section class="about-section py-3" id="about">
           <div class="container">
             <div class="row section-header">
               <div class="col-12">
@@ -63,12 +74,12 @@
             </div>
             <div class="row">
               <div class="col-md-6 col-sm-12">
-                • 3 years of experience in complete SDLC.
-                • An Oracle Certified Associate - Java programmer.
-                • Expertise in Core Java, Spring MVC, AngularJS, HTML, CSS, Bootstrap, and PostgreSQL.
-                • Responsible towards day-to-day operations of the project.
-                • Project planning, Team building and Cross-functional.
-                • Excellent communication skills along with problem-solving, analytical and decision-making skills.
+                <p>3 years of experience in complete SDLC.</p>
+                <p>An Oracle Certified Associate - Java programmer.</p>
+                <p>Expertise in Core Java, Spring MVC, AngularJS, HTML, CSS, Bootstrap, and PostgreSQL.</p>
+                <p>Responsible towards day-to-day operations of the project.</p>
+                <p>Project planning, Team building and Cross-functional.</p>
+                <p>Excellent communication skills along with problem-solving, analytical and decision-making skills.</p>
               </div>
               <div class="col-md-6 col-sm-12">
 
@@ -77,7 +88,7 @@
           </div>
         </section>
         <br>
-        <section class="projects-section" id="projects">
+        <section class="projects-section py-3" id="projects">
           <div class="container">
             <div class="row section-header">
               <div class="col-12">
@@ -86,17 +97,46 @@
               </div>
             </div>
             <div class="row">
-              <div class="col-md-6 col-sm-12">
-
+              <div class="col-md-4 col-sm-12">
+                <div class="list-group" id="list-tab" role="tablist">
+                  <a class="list-group-item list-group-item-action active" id="list-home-list" data-toggle="list"
+                    href="#list-home" role="tab" aria-controls="home">Managing Data Privacy</a>
+                  <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list"
+                    href="#list-profile" role="tab" aria-controls="profile">Reporting Web Application</a>
+                </div>
               </div>
-              <div class="col-md-6 col-sm-12">
+              <div class="col-md-8 col-sm-12">
+                <div class="tab-content" id="nav-tabContent">
+                  <div class="tab-pane fade show active" id="list-home" role="tabpanel"
+                    aria-labelledby="list-home-list">
+                    <p>Class level Design and Development of complete flow of multiple functionalities.</p>
+                    <p>Troubleshooting and debugging of code for resolution of issues.</p>
+                    <p>Handling build management and dependency through Mavenized workspace.</p>
+                    <p>Attending the daily status meeting and updating on the status of tasks to team.</p>
+                    <p>Contributing to the sprint planning and estimation of user stories.</p>
+                    <p>Helping other team members in resolving the development issues.</p>
+                    <p>Resolving coding standard issues using SonarQube.</p>
+                    <p>Preparing documents like Solution Document, Traceability Matrix etc.</p>
+                  </div>
+                  <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">
+                    <p>Designed the Class level structure of the application, while brainstorming with team.</p>
+                    <p>Developed and deployed a module of automating over 35+ reports.</p>
+                    <p>Contributed to the requirement gathering.</p>
+                    <p>Ensured quality and timeliness of deliverables.</p>
+                    <p>Extended post-implementation support.</p>
+                    <p>Done Query optimization, Troubleshooting and Debugging of code.</p>
+                    <p>Resolved coding standard issues using SonarQube.</p>
+                    <p>Handling build management and dependency through Mavenized workspace.</p>
+                    <p>Lead team of two members, also Mentored, Assessed new jonnies.</p>
+                  </div>
 
+                </div>
               </div>
             </div>
           </div>
         </section>
         <br>
-        <section id="Skills" class="skills-section">
+        <section id="Skills" class="skills-section py-3">
           <div class="container">
             <div class="row section-header">
               <div class="col-12">
@@ -105,22 +145,64 @@
               </div>
             </div>
             <div class="row">
-              <div class="card skill-card mx-2">
+              <div class="card skill-card m-2">
                 <div class="card-body">
                   <h5 class="card-title">Core Java</h5>
                   <p class="card-text">Proficient in core concepts. Oracle Certified Associate - Java.</p>
                 </div>
               </div>
-              <div class="card skill-card mx-2">
+              <div class="card skill-card m-2">
                 <div class="card-body">
                   <h5 class="card-title">Spring | Spring Boot</h5>
                   <p class="card-text">Worked on Spring MVC, Spring JDBC, Spring security.</p>
                 </div>
               </div>
-              <div class="card skill-card mx-2">
+              <div class="card skill-card m-2">
                 <div class="card-body">
                   <h5 class="card-title">AngularJS | Angular7</h5>
                   <p class="card-text">Worked on both 1.x and 2+ version.</p>
+                </div>
+              </div>
+              <div class="card skill-card m-2">
+                <div class="card-body">
+                  <h5 class="card-title">HTML | CSS | Bootstrap</h5>
+                  <p class="card-text">description.....</p>
+                </div>
+              </div>
+              <div class="card skill-card m-2">
+                <div class="card-body">
+                  <h5 class="card-title">Design Patterns</h5>
+                  <p class="card-text">description.....</p>
+                </div>
+              </div>
+              <div class="card skill-card m-2">
+                <div class="card-body">
+                  <h5 class="card-title">PostgreSQL | Sybase</h5>
+                  <p class="card-text">description.....</p>
+                </div>
+              </div>
+              <div class="card skill-card m-2">
+                <div class="card-body">
+                  <h5 class="card-title">Maven</h5>
+                  <p class="card-text">description.....</p>
+                </div>
+              </div>
+              <div class="card skill-card m-2">
+                <div class="card-body">
+                  <h5 class="card-title">Jenkins</h5>
+                  <p class="card-text">description.....</p>
+                </div>
+              </div>
+              <div class="card skill-card m-2">
+                <div class="card-body">
+                  <h5 class="card-title">JBOSS | Websphere</h5>
+                  <p class="card-text">description.....</p>
+                </div>
+              </div>
+              <div class="card skill-card m-2">
+                <div class="card-body">
+                  <h5 class="card-title">SVN | GIT</h5>
+                  <p class="card-text">description.....</p>
                 </div>
               </div>
             </div>
