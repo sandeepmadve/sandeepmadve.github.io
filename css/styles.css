@@ -10140,3 +10140,7 @@ section.resume-section .resume-section-content {
   width: 30rem;
   border: var(--primary) solid 1px;
 }
+
+.white-bg{
+  background-image: url("../assets/img/white-bg.avif");
+}
