@@ -1,0 +1,22 @@
+<div class="row h-100">
+  <!-- left sidebar -->
+  <app-sidebar></app-sidebar>
+  <!-- center content -->
+  <div class="invisible col-md-2 fixed">
+    <!--ghost div to push middle section offset-->
+  </div>
+  <div class="col fluid d-flex flex-column p-0">
+    <app-header></app-header>
+
+    <!-- main content -->
+    <div class="container-fluid main">
+      <router-outlet></router-outlet>
+    </div>
+
+    <!-- /main content -->
+
+    <!-- <app-footer></app-footer> -->
+
+  </div>
+
+</div>

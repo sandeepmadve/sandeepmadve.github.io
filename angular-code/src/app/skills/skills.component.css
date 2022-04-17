@@ -1,0 +1,7 @@
+.details{
+    width: 100%;
+    display: flex;  
+    justify-content: space-between;
+    margin-bottom: 10px;
+    color: var(--primary);
+}

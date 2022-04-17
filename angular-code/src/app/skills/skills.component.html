@@ -1,0 +1,27 @@
+<div class="container-fluid bg-navy p-4">
+    <div class="row">
+        <div class="col-sm-12 col-md-6 col-lg-4" *ngFor="let skillsByCategory of skillData">
+            <div class="skill-category border p-3">
+                <h5>{{skillsByCategory.name}}</h5>
+                <br>
+                <div class="skill-subcategory mx-2 mb-4"
+                    *ngFor="let skillsBySubcategory of skillsByCategory.subCategories">
+                    <h6 class="text-light">{{skillsBySubcategory.name}}</h6>
+                    <hr class="mt-0">
+                    <div class="skill mx-2 mb-2" *ngFor="let skill of skillsBySubcategory.skills">
+                        <div class="details mb-0">
+                            <small>{{skill.name}}</small>
+                            <small>{{skill.levelDesc}}</small>
+                        </div>
+                        <div class="progress" style="height: 0.5rem; background-color: #1d2e5c;">
+                            <div class="progress-bar progress-bar-striped bg-light" role="progressbar"
+                                [ngStyle]="{'width.%':skill.level*25}" aria-valuenow="25" aria-valuemin="0"
+                                aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <br>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
