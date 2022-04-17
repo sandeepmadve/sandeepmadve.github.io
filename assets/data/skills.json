@@ -1,0 +1,355 @@
+[
+    {
+        "name": "Technologies",
+        "subCategories": [
+            {
+                "name": "Computer Language",
+                "skills": [
+                    {
+                        "name": "Java",
+                        "level": 4,
+                        "levelDesc": "Expert"
+                    },
+                    {
+                        "name": "Python",
+                        "level": 1,
+                        "levelDesc": "Novice"
+                    },
+                    {
+                        "name": "JavaScript",
+                        "level": 3,
+                        "levelDesc": "Advanced"
+                    },
+                    {
+                        "name": "HTML",
+                        "level": 4,
+                        "levelDesc": "Expert"
+                    },
+                    {
+                        "name": "CSS",
+                        "level": 3,
+                        "levelDesc": "Advanced"
+                    },
+                    {
+                        "name": "SQL",
+                        "level": 3,
+                        "levelDesc": "Advanced"
+                    },
+                    {
+                        "name": "PLSQL",
+                        "level": 2,
+                        "levelDesc": "Intermediate"
+                    },
+                    {
+                        "name": "Java",
+                        "level": 4,
+                        "levelDesc": "Expert"
+                    }
+                ]
+            },
+            {
+                "name": "Data",
+                "skills": [
+                    {
+                        "name": "Oracle",
+                        "level": 3,
+                        "levelDesc": "Advanced"
+                    },
+                    {
+                        "name": "Postgre",
+                        "level": 1,
+                        "levelDesc": "Novice"
+                    },
+                    {
+                        "name": "MariaDB",
+                        "level": 3,
+                        "levelDesc": "Advanced"
+                    },
+                    {
+                        "name": "MySql",
+                        "level": 3,
+                        "levelDesc": "Advanced"
+                    }
+                ]
+            },
+            {
+                "name": "Framework",
+                "skills": [
+                    {
+                        "name": "Spring Core",
+                        "level": 4,
+                        "levelDesc": "Expert"
+                    },
+                    {
+                        "name": "Spring MVC",
+                        "level": 4,
+                        "levelDesc": "Expert"
+                    },
+                    {
+                        "name": "Spring Data JPA",
+                        "level": 4,
+                        "levelDesc": "Expert"
+                    },
+                    {
+                        "name": "Spring Security",
+                        "level": 3,
+                        "levelDesc": "Advanced"
+                    },
+                    {
+                        "name": "Spring Boot",
+                        "level": 3,
+                        "levelDesc": "Advanced"
+                    },
+                    {
+                        "name": "Hibernate",
+                        "level": 3,
+                        "levelDesc": "Advanced"
+                    },
+                    {
+                        "name": "Apache Maven",
+                        "level": 4,
+                        "levelDesc": "Expert"
+                    },
+                    {
+                        "name": "Angular",
+                        "level": 3,
+                        "levelDesc": "Advanced"
+                    },
+                    {
+                        "name": "Angular JS",
+                        "level": 3,
+                        "levelDesc": "Advanced"
+                    },
+                    {
+                        "name": "JUnit",
+                        "level": 3,
+                        "levelDesc": "Advanced"
+                    },
+                    {
+                        "name": "Mockito",
+                        "level": 3,
+                        "levelDesc": "Advanced"
+                    }
+                ]
+            },
+            {
+                "name": "Solution",
+                "skills": [
+                    {
+                        "name": "Amazon Web Services",
+                        "level": 2,
+                        "levelDesc": "Intermediate"
+                    },
+                    {
+                        "name": "JBoss",
+                        "level": 3,
+                        "levelDesc": "Advanced"
+                    },
+                    {
+                        "name": "Websphere",
+                        "level": 3,
+                        "levelDesc": "Advanced"
+                    },
+                    {
+                        "name": "Apache Tomcat",
+                        "level": 2,
+                        "levelDesc": "Intermediate"
+                    },
+                    {
+                        "name": "Jenkins",
+                        "level": 3,
+                        "levelDesc": "Advanced"
+                    },
+                    {
+                        "name": "Git/SVN",
+                        "level": 4,
+                        "levelDesc": "Expert"
+                    },
+                    {
+                        "name": "SonarQube",
+                        "level": 4,
+                        "levelDesc": "Expert"
+                    },
+                    {
+                        "name": "Checkmarx",
+                        "level": 3,
+                        "levelDesc": "Advanced"
+                    },
+                    {
+                        "name": "Postman",
+                        "level": 4,
+                        "levelDesc": "Expert"
+                    },
+                    {
+                        "name": "STS/VScode",
+                        "level": 4,
+                        "levelDesc": "Expert"
+                    },
+                    {
+                        "name": "pgAdmin",
+                        "level": 4,
+                        "levelDesc": "Expert"
+                    },
+                    {
+                        "name": "MySQL Workbench",
+                        "level": 3,
+                        "levelDesc": "Advanced"
+                    },
+                    {
+                        "name": "Jenkins",
+                        "level": 4,
+                        "levelDesc": "Expert"
+                    },
+                    {
+                        "name": "JIRA",
+                        "level": 4,
+                        "levelDesc": "Expert"
+                    },
+                    {
+                        "name": "Confluence",
+                        "level": 3,
+                        "levelDesc": "Advanced"
+                    }
+                ]
+            },
+            {
+                "name": "Platform",
+                "skills": [
+                    {
+                        "name": "Windows",
+                        "level": 3,
+                        "levelDesc": "Advanced"
+                    },
+                    {
+                        "name": "Unix",
+                        "level": 2,
+                        "levelDesc": "Intermediate"
+                    }
+                ]
+            },
+            {
+                "name": "Standard",
+                "skills": [
+                    {
+                        "name": "LDAP",
+                        "level": 3,
+                        "levelDesc": "Advanced"
+                    },
+                    {
+                        "name": "RESTful Webservices",
+                        "level": 4,
+                        "levelDesc": "Expert"
+                    }
+                ]
+            },
+            {
+                "name": "Other",
+                "skills": []
+            }
+        ]
+    },
+    {
+        "name": "Engineering Practices",
+        "subCategories": [
+            {
+                "name": "Developement",
+                "skills": [
+                    {
+                        "name": "Object-Oriented",
+                        "level": 4,
+                        "levelDesc": "Expert"
+                    },
+                    {
+                        "name": "Hollywood",
+                        "level": 3,
+                        "levelDesc": "Advanced"
+                    },
+                    {
+                        "name": "SOLID",
+                        "level": 3,
+                        "levelDesc": "Advanced"
+                    },
+                    {
+                        "name": "Java Design Patterns",
+                        "level": 2,
+                        "levelDesc": "Intermediate"
+                    }
+                ]
+            },
+            {
+                "name": "Quality",
+                "skills": [
+                    {
+                        "name": "Clean Code",
+                        "level": 4,
+                        "levelDesc": "Expert"
+                    },
+                    {
+                        "name": "Code Simplicity",
+                        "level": 3,
+                        "levelDesc": "Advanced"
+                    },
+                    {
+                        "name": "Unit Testing",
+                        "level": 3,
+                        "levelDesc": "Advanced"
+                    },
+                    {
+                        "name": "Code Review",
+                        "level": 4,
+                        "levelDesc": "Expert"
+                    }
+                ]
+            },
+            {
+                "name": "System Design",
+                "skills": []
+            }
+        ]
+    },
+    {
+        "name": "Academic Disciplines",
+        "subCategories": [
+            {
+                "name": "Computer Science",
+                "skills": [
+                    {
+                        "name": "Data Structures",
+                        "level": 2,
+                        "levelDesc": "Intermediate"
+                    },
+                    {
+                        "name": "Algorithms",
+                        "level": 2,
+                        "levelDesc": "Intermediate"
+                    },
+                    {
+                        "name": "Operating Systems",
+                        "level": 1,
+                        "levelDesc": "Novice"
+                    },
+                    {
+                        "name": "RDBMS",
+                        "level": 2,
+                        "levelDesc": "Intermediate"
+                    }
+                ]
+            },
+            {
+                "name": "Networking",
+                "skills": [
+                    {
+                        "name": "OSI Model",
+                        "level": 2,
+                        "levelDesc": "Intermediate"
+                    },
+                    {
+                        "name": "TCP/UDP",
+                        "level": 2,
+                        "levelDesc": "Intermediate"
+                    }
+                ]
+            }
+        ]
+    }
+]
